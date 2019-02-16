@@ -17,21 +17,19 @@
       </div> 
       <div class="pill-nav">
         <a href="index.html">Accueil</a>
-        <a href="news.html">Nouvelles</a>
         <a class="active" href="contact.html">Contact</a>
-        <a href="about.html">A propos</a>
       </div>
       <div class="container">
         <form action="">
       
           <label for="fname">Nom</label>
-          <input type="text" id="fname" name="firstname" placeholder="Votre nom..">
+          <input type="text" id="fname" name="firstname" placeholder="Votre nom.." required>
       
           <label for="lname">Prénom</label>
-          <input type="text" id="lname" name="lastname" placeholder="Votre prénom..">
+          <input type="text" id="lname" name="lastname" placeholder="Votre prénom.." required>
       
           <label for="country">Pays</label>
-          <select id="country" name="country">
+          <select id="country" name="country" required>
             <option value="none">Votre pays</option>
             <option value="france">France</option>
             <option value="quebec">Canada</option>
@@ -40,7 +38,7 @@
           </select>
       
           <label for="subject">Message</label>
-          <textarea id="subject" name="subject" placeholder="Votre message.." style="height:200px"></textarea>
+          <textarea id="subject" name="subject" placeholder="Votre message.." style="height:200px" required></textarea>
       
           <input type="submit" value="Envoyer">
       
