@@ -1,0 +1,1 @@
+<footer>Copytight 2019 Alexandre Leclerc - <a href="">Mentions légales</a></footer>
