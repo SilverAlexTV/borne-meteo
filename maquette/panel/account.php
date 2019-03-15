@@ -38,13 +38,13 @@ session_start();
       <div class="col-sm-6">
         <div class="form-group">
           <label>Pseudo</label>
-          <input type="text" class="form-control" value= <?php $_POST['pseudo']; ?> disabled>
+          <input type="text" class="form-control" value="<?php $_POST['pseudo']; ?>" disabled>
         </div>
       </div>
       <div class="col-sm-6">
         <div class="form-group">
           <label>Email</label>
-          <input type="text" class="form-control" value= <?php $_SESSION['pseudo'] . "@gmail.com"; ?> disabled>
+          <input type="text" class="form-control" value="<?php $_SESSION['pseudo'] . "@gmail.com"; ?>" disabled>
         </div>
       </div>
     </div>
