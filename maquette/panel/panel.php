@@ -18,7 +18,7 @@
 <div class="w3-sidebar w3-light-grey w3-card-4 w3-animate-left" style="width:200px" id="mySidebar">
   <div class="w3-bar-block">
   <a class="w3-bar-item w3-button w3-blue" href="javascript:void(0)">Informations Météo</a>
-  <a class="w3-bar-item w3-button" href="account.html">Mon compte</a>
+  <a class="w3-bar-item w3-button" href="account.php">Mon compte</a>
   </div>
   <div class="w3-bar-block">
   <a class="w3-bar-item w3-button" href="../contact.html">Support</a>
