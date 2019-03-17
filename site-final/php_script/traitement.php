@@ -1,4 +1,5 @@
 <?php
+/*Variable de connexion à la base de donnée PostgreSQL*/
 $host = "host=ec2-54-246-92-116.eu-west-1.compute.amazonaws.com";
 $port = "port=5432";
 $dbname = "dbname=dn3b7jaiq1jt3";
