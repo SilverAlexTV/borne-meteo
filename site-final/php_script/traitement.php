@@ -6,6 +6,12 @@ $dbname = "dbname=dn3b7jaiq1jt3;";
 $username = "user=ldpiwptjtzwnyd;";
 $password =  "password=0195228c061fd465fd6af6b9dc692173735da847c79dcbb396d364c3ee071964";
 
+/*Récupération des données avec la métode POST*/
+$temperature = $_POST[''];
+$humidite = $_POST[''];
+$direction_vent = $_POST[''];
+$vitesse_vent = $_POST[''];
+
 /*Connexion à la base de donnée*/
 $db = new PDO("pgsql:$host $port $dbname $username $password");
 
@@ -29,5 +35,5 @@ $ecriture->execute(array(
 ));
 
 /*Confirmation de l'écriture des données dans la base de donnée*/
-echo 'Les données ont été ajoutées à la base de donnée PostgreSQL !'
+echo 'Les données ont été ajoutées à la base de donnée PostgreSQL !';
 ?>
